@@ -1,0 +1,24 @@
+{
+  "name": "markdown-it-bracketed-spans",
+  "version": "1.0.1",
+  "description": "<span> tag for markdown-it markdown parser.",
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown",
+    "span"
+  ],
+  "homepage": "https://github.com/mb21/markdown-it-bracketed-spans",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mb21/markdown-it-bracketed-spans.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mb21/markdown-it-bracketed-spans/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {},
+  "author": "Mauro Bieg"
+}
