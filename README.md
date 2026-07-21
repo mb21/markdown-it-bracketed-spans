@@ -14,11 +14,12 @@ Must be used together with the [markdown-it-attrs plugin](https://github.com/arv
 ## Usage
 
 ```javascript
-var md = require('markdown-it')()
-            .use( require('markdown-it-bracketed-spans') )
-            .use( require('markdown-it-attrs') )
+import mdIt from 'markdown-it';
+import mdItBracketedSpans from 'markdown-it-pandoc';
+import mdItAttrs from 'markdown-it-attrs';
 
-var output = md.render('foo [bar *bar*]{#id .class attr=value} baz')
+const md = mdIt().use(mdItBracketedSpans).use(mdItAttrs);
+const output = md.render('foo [bar *bar*]{#id .class attr=value} baz');
 ```
 
 Output will be:
