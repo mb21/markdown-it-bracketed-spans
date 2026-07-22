@@ -15,7 +15,7 @@ Must be used together with the [markdown-it-attrs plugin](https://github.com/arv
 
 ```javascript
 import mdIt from 'markdown-it';
-import mdItBracketedSpans from 'markdown-it-pandoc';
+import mdItBracketedSpans from 'markdown-it-bracketed-spans';
 import mdItAttrs from 'markdown-it-attrs';
 
 const md = mdIt().use(mdItBracketedSpans).use(mdItAttrs);

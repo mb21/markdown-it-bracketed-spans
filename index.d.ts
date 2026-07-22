@@ -7,7 +7,7 @@ import type { PluginSimple } from "markdown-it";
  * @example
  * ```typescript
  * import mdIt from 'markdown-it';
- * import mdItBracketedSpans from 'markdown-it-pandoc';
+ * import mdItBracketedSpans from 'markdown-it-bracketed-spans';
  * import mdItAttrs from 'markdown-it-attrs';
  * 
  * const md = mdIt().use(mdItBracketedSpans).use(mdItAttrs);
